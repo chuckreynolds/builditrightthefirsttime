@@ -1,4 +1,3 @@
-Repo to host BuildItRightTheFirstTime
-=====================================
+### Repo to host BuildItRightTheFirstTime
 
-# everything in gh-pages branch for public
+notes on next layout: https://github.com/dhg/davegamache/blob/master/parallax/index.html
