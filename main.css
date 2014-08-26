@@ -17,3 +17,8 @@ a img {border:none;}
 	h1 {font-size:.7em;}
 	h2 {font-size:.4em;}
 }
+@media all and (max-width: 350px) {
+	h1,h2{padding-left:5px;}
+	h1 {font-size:.6em;}
+	h2 {font-size:.3em;}
+}
