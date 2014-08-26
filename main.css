@@ -3,8 +3,7 @@
 html,body,div,ol,ul,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,blockquote {margin:0;padding:0;}
 html, body {font-size:44px;}
 #content {width:75%;margin:0 auto;}
-h1 {color:#bbb;padding-left:40px;margin:0px 0px 10px -60px;}
-h1 {font:bold 2.2em helvetica, arial, sans-serif;border-left:20px solid #87913c;}
+h1 {color:#bbb;padding-left:40px;margin:0px 0px 10px -60px;font:bold 2.26em helvetica, arial, sans-serif;border-left:20px solid #87913c;}
 h1 em, p em {font-style:normal;color:#888;}
 p {font:bold 1em helvetica, arial, sans-serif;color:#bbb;padding-bottom:30px;}
 a {color:#888;text-decoration:none;}
@@ -12,9 +11,9 @@ a:hover {color:#87913c;}
 a img {border:none;}
 
 @media all and (max-width: 699px) {
-	h1 {font-size:.7em;padding-left:5px;}
+	h1 {font-size:.9em;padding-left:5px;}
 }
 @media all and (max-width: 350px) {
-	h1 {font-size:.6em;padding-left:5px;}
+	h1 {font-size:.8em;padding-left:5px;}
 	p {font-size:.7em;padding-bottom:15px;}
 }
