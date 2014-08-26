@@ -11,7 +11,7 @@ a:hover {color:#87913c;}
 a img {border:none;}
 
 @media all and (max-width: 750px) {
-	h1 {font-size:1.2em;}
+	h1 {font-size:1.6em;}
 	p {font-size:.9em;padding-bottom:15px;}
 }
 @media all and (max-width: 380px) {
