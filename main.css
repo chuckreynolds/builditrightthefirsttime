@@ -16,6 +16,6 @@ a img {border:none;}
 }
 @media all and (max-width: 380px) {
 	#content {width:90%;}
-	h1 {margin:0 0 10px 0}
+	h1 {margin:0 0 10px 0; border:none;}
 	p {font-size:.7em;}
 }
