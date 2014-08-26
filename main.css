@@ -2,7 +2,7 @@
 * {margin:0;padding:0;border:none;z-index:0;}
 html,body,div,ol,ul,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,blockquote {margin:0;padding:0;}
 html, body {font-size:44px;}
-#content {width:75%;margin:0 auto;}
+#content {width:75%;margin:0 auto;max-width:800px;}
 h1 {color:#bbb;padding-left:40px;margin:0px 0px 10px -60px;font:bold 2.26em helvetica, arial, sans-serif;border-left:20px solid #87913c;}
 h1 em, p em {font-style:normal;color:#888;}
 p {font:bold 1em helvetica, arial, sans-serif;color:#bbb;padding-bottom:30px;}
