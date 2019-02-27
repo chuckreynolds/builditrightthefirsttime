@@ -1,0 +1,20 @@
+@charset "utf-8";
+* {margin:0;padding:0;border:none;z-index:0;}
+html,body,div,ol,ul,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,blockquote {margin:0;padding:0;}
+html, body {font-size:44px; color: #fefff8; background: url(/img/og-bg.jpg) -100% -100% #ea5a1e;}
+#content {width:75%;margin:0 auto;max-width:800px;}
+h1 {padding-left:40px;margin:0px 0px 10px -60px;font:bold 2.26em 'PT Sans', sans-serif;border-left:15px solid #24201a;}
+h1 em, p em, p span {font-style:normal;color:#24201a;}
+p {font:bold 1em 'Merriweather Sans', sans-serif;padding-bottom:30px;}
+a {color:#24201a;text-decoration:none;}
+a:hover {color:#060605;}
+@media all and (max-width: 750px) {
+	#content {width:96%;}
+	h1 {font-size:1.5em;}
+	p {font-size:.8em;padding-bottom:15px;}
+}
+@media all and (max-width: 380px) {
+	#content {width:90%;}
+	h1 {font-size:1em;padding-left:10px;margin:0 0 10px 0; border-left:6px solid #24201a;}
+	p {font-size:.7em;}
+}
