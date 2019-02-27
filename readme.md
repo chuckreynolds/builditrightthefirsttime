@@ -1,7 +1,3 @@
-### Repo to host BuildItRightTheFirstTime
+### Repo for BuildItRightTheFirstTime
 
-#### notes on next layout: 
-option 1: https://github.com/dhg/davegamache/tree/master/parallax
-option 2: https://github.com/Prinzhorn/skrollr
-skrollr tutorial: http://ihatetomatoes.net/simple-parallax-scrolling-tutorial/
-typekit free: https://typekit.com/fonts?collection=trial&licenses=web
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5572f38-011c-48e5-94d7-b8e74d182109/deploy-status)](https://app.netlify.com/sites/builditrightthefirsttime/deploys)
