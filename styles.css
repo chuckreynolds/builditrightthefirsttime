@@ -1,0 +1,106 @@
+/* CSS Reset - Modern minimal approach */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS Custom Properties */
+:root {
+  --color-background: #ea5a1e;
+  --color-text: #fefff8;
+  --color-accent: #24201a;
+  --color-accent-hover: #060605;
+  --font-family: 'Merriweather Sans', sans-serif;
+  --base-font-size: 44px;
+  --max-content-width: 800px;
+}
+
+/* Base styles - Mobile first */
+html,
+body {
+  font-size: var(--base-font-size);
+  color: var(--color-text);
+  background: url('og-bg.jpg') -100% -100% var(--color-background);
+  font-family: var(--font-family);
+}
+
+/* Main content container */
+main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+}
+
+/* Heading styles */
+h1 {
+  padding-left: 10px;
+  margin: 0 0 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+  border-left: 6px solid var(--color-accent);
+}
+
+/* Emphasis styling */
+h1 em,
+p em,
+p span {
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+/* Paragraph styles */
+p {
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Link styles */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-accent-hover);
+}
+
+/* Tablet and up (min-width: 381px) */
+@media (min-width: 381px) {
+  h1 {
+    font-size: 1.5em;
+    padding-left: 20px;
+    border-left: 10px solid var(--color-accent);
+  }
+
+  p {
+    font-size: 0.8em;
+    padding-bottom: 20px;
+  }
+}
+
+/* Desktop and up (min-width: 751px) */
+@media (min-width: 751px) {
+  main {
+    width: 75%;
+  }
+
+  h1 {
+    padding-left: 40px;
+    margin: 0 0 10px -60px;
+    font-size: 2.26em;
+    border-left: 15px solid var(--color-accent);
+  }
+
+  p {
+    font-size: 1em;
+    padding-bottom: 30px;
+  }
+}
