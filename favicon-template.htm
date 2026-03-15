@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Favicon Templates - Build it Right the First Time</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:#f5f5f5;
+  font-family:-apple-system,"Helvetica Neue","Segoe UI",sans-serif;
+  padding:40px;
+  display:flex;
+  gap:40px;
+  flex-wrap:wrap;
+  align-items:flex-start;
+}
+.preview{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:center;
+}
+.preview label{
+  font-size:14px;
+  font-weight:600;
+  color:#333;
+}
+.icon{
+  background:#0e1525;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:0;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);
+  position:relative;
+}
+.icon-512{width:512px;height:512px}
+.icon-180{width:180px;height:180px;border-radius:40px}
+.icon-32{width:32px;height:32px}
+.icon-16{width:16px;height:16px}
+
+.emoji{
+  line-height:1;
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,.3));
+}
+.emoji-512{font-size:380px}
+.emoji-180{font-size:130px}
+.emoji-32{font-size:24px}
+.emoji-16{font-size:12px}
+
+.section{
+  width:100%;
+  margin-bottom:20px;
+}
+.section h2{
+  font-size:18px;
+  margin-bottom:20px;
+  color:#333;
+}
+.row{
+  display:flex;
+  gap:40px;
+  flex-wrap:wrap;
+}
+.note{
+  font-size:13px;
+  color:#666;
+  margin-top:8px;
+  max-width:600px;
+}
+</style>
+</head>
+<body>
+
+<div class="section">
+  <h2>🍊 Orange Emoji Favicon</h2>
+  <p class="note">Screenshot each icon individually at exact dimensions. The 180×180 has rounded corners for iOS.</p>
+  <div class="row">
+    <div class="preview">
+      <label>512×512</label>
+      <div class="icon icon-512">
+        <div class="emoji emoji-512">🍊</div>
+      </div>
+    </div>
+    <div class="preview">
+      <label>180×180 (Apple)</label>
+      <div class="icon icon-180">
+        <div class="emoji emoji-180">🍊</div>
+      </div>
+    </div>
+    <div class="preview">
+      <label>32×32</label>
+      <div class="icon icon-32">
+        <div class="emoji emoji-32">🍊</div>
+      </div>
+    </div>
+    <div class="preview">
+      <label>16×16</label>
+      <div class="icon icon-16">
+        <div class="emoji emoji-16">🍊</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
